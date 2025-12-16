@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "id.bions.bnis.android",
       "sha256_cert_fingerprints": [
-        "BF:27:E5:7F:54:45:55:CA:C3:1C:7A:A9:90:BF:89:87:BC:68:33:87:05:39:8E:06:48:F7:C2:4E:0F:B5:2B:C7"
+        "BF:27:E5:7F:54:45:55:CA:C3:1C:7A:A9:90:BF:89:87:BC:68:33:87:05:39:8E:06:48:F7:C2:4E:0F:B5:2B:C7",
+        "DB:A3:21:97:A9:6B:A5:7A:51:47:C7:C3:31:16:49:3C:C3:14:C5:F8:E8:44:DD:5F:10:EB:5D:26:24:13:30:59"
       ]
     }
   },
@@ -19,7 +20,8 @@
       "namespace": "android_app",
       "package_name": "id.bions.bnis.android.v2",
       "sha256_cert_fingerprints": [
-        "BF:27:E5:7F:54:45:55:CA:C3:1C:7A:A9:90:BF:89:87:BC:68:33:87:05:39:8E:06:48:F7:C2:4E:0F:B5:2B:C7"
+        "BF:27:E5:7F:54:45:55:CA:C3:1C:7A:A9:90:BF:89:87:BC:68:33:87:05:39:8E:06:48:F7:C2:4E:0F:B5:2B:C7",
+        "DB:A3:21:97:A9:6B:A5:7A:51:47:C7:C3:31:16:49:3C:C3:14:C5:F8:E8:44:DD:5F:10:EB:5D:26:24:13:30:59"
       ]
     }
   }
