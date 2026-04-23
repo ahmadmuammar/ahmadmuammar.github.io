@@ -30,7 +30,6 @@ end"
 >
   Open Bions App
 </a>
-
 <a
   href="bions://dev.bions.id/wondr?p=BionsWondr"
   style="
@@ -46,7 +45,6 @@ end"
 >
   Open Bions App with Custom Scheme
 </a>
-
 <a
   href="https://dev.bions.id/wondr?p=BionsWondr"
   style="
@@ -62,7 +60,6 @@ end"
 >
   Open Bions App with HTTPS link
 </a>
-
  <a
   href="bions://wondr?p=BionsWondr"
   style="
@@ -78,6 +75,61 @@ end"
 >
   Open Bions App with Custom Scheme IOS
 </a>
- 
+
+<br/><br/>
+<hr/>
+<h2>Deferred Deep Link Test</h2>
+<p>Use these buttons to test deferred deep link (for users who don't have the app yet).</p>
+
+<!-- Android Deferred Deep Link -->
+<a
+  href="https://play.google.com/store/apps/details?id=id.bions.bnis.android&referrer=deepLink%3Dhttps%253A%252F%252Fweb.bions.id%252Fwondr"
+  style="
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #34a853;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  "
+>
+  Deferred Deep Link — Android (Play Store)
+</a>
+
+<br/>
+
+<!-- iOS Deferred Deep Link -->
+<button
+  onclick="handleIosDeferred()"
+  style="
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #34a853;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+  "
+>
+  Deferred Deep Link — iOS (App Store)
+</button>
+
+<script>
+  async function handleIosDeferred() {
+    try {
+      await navigator.clipboard.writeText('https://web.bions.id/wondr');
+      console.log('Deep link copied to clipboard');
+    } catch (err) {
+      console.warn('Clipboard write failed:', err);
+    }
+    window.location.href = 'https://apps.apple.com/app/id6736508566';
+  }
+</script>
+
 </body>
 </html>
